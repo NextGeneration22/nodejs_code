@@ -1,0 +1,35 @@
+.mainBody{
+  background-image: url("https://assets.codepen.io/12887886/bookstore.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  margin-top:2vh;
+}
+ /*this is for the search bar*/
+ .searchBody{
+  position: fixed;
+}
+ #searchBaBo{
+  width:50vw;
+}
+/*this for the search button*/
+#searchBooks{
+  width:10vw;
+  background: #0b7dda;
+  color:#ffffff;
+  cursor: pointer;
+}
+
+/*for the book image*/
+#bookImage{
+  position: relative;
+  width:20vh;
+  height: 30vh;
+}
+
+#bookRead{
+  position: absolute;
+  top:20vh;
+}
